@@ -1,0 +1,14 @@
+@startchronology
+'title Chronology Diagram
+[A: 2024-01-15 01:08:12] happens on 2024-01-15 01:08:12
+[B] happens on 2024-01-15 13:08:12
+[C] happens on 2024-01-15 22:12:08
+
+
+
+
+' @nogeek.cn footer
+
+footer <b>https://nogeek.cn</b> <img:https://f.umlcn.com/NoGeekAvatar.png> <b>https://umlcn.com</b>\n
+
+@endchronology

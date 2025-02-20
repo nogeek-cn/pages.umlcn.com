@@ -1,0 +1,39 @@
+@startuml
+
+title: 来 UMLcn.com 学习建模 \n 立马升职加薪 \n
+
+actor 架构师
+participant "<b><font size=20>UMLcn.com" as UMLcn
+actor 老板
+
+
+
+group 不断进化
+    UMLcn -> UMLcn: <font color=red size=16>梳理建模相关知识精华
+    activate UMLcn
+    deactivate UMLcn
+end
+
+架构师 -> UMLcn : <font color=red size=16>学习架构建模知识
+activate 架构师
+deactivate 架构师
+
+架构师 -> 老板 : \n<b><font color=red size=20>升职加薪
+activate 老板
+deactivate 老板
+
+group 不断学习
+    架构师 -> UMLcn : <font color=red size=16>再次学习架构建模知识
+    activate 架构师
+    deactivate 架构师
+end
+
+架构师 -> 老板 : \n<b><font color=red size=20>再次涨薪
+activate 老板
+deactivate 老板
+
+
+
+'footer @nogeek.cn
+
+@enduml

@@ -1,0 +1,29 @@
+@startuml
+
+!define Table(name,desc) class name as "desc" << (T,#FFAAAA) >>
+!define primary_key(x) <color:red><b>x</b></color>
+!define unique(x) <color:green>x</color>
+!define not_null(x) <u>x</u>
+hide methods
+hide stereotypes
+
+
+ Table(table_2, "table_2\n(This is table 2)"){
+not_null(id) bigint
+ not_null(user_id) bigint  用户id
+ not_null(user_name) varchar  用户名称
+ not_null(prod_id) bigint  产品id
+ interest_date dateNULL计息日期
+ }
+
+
+ Table(table_3, "table_3\n(This is table 3)"){
+not_null(id) bigint
+ not_null(user_id) bigint  用户id
+ not_null(user_name) varchar  用户名称
+ not_null(prod_id) bigint  产品id
+ }
+
+table_2 .. table_3
+
+@enduml

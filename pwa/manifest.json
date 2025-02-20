@@ -1,0 +1,19 @@
+{
+  "name": "umlCn",
+  "short_name": "umlCn",
+  "description": "UmlCn | 软件方法 ｜始于极客 不止极客",
+  "icons": [{
+    "src": "https://umlcn.com/UmlCnIconAvatar.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "https://umlcn.com/UmlCnIconAvatar.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
